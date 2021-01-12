@@ -1,0 +1,103 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	transition: 0.05s;
+
+}
+
+html{
+	scroll-behavior: smooth;
+		background-color: #E5E8E8 ;
+	
+}
+
+aside{
+	position: fixed;
+	top: 0;
+	width: 15rem;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #007bff;
+	background-image: url('photo6.jpg');
+	background-size: 100% 100%;
+	
+	
+
+}
+
+aside img{
+	widows: 10rem;
+	height: 10rem;
+    border-radius: 50rem;
+    border:10px solid rgba(255,255,255,.2);
+}
+
+aside a{
+	display: block;
+	font-family: 'Goldman', cursive;
+
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.05rem;
+	padding: 0.5rem 0;
+	color:rgba(255,255,255,.6);
+}
+aside a:hover{
+	color: rgba(255,255,255,.1);
+}
+
+
+.container{
+	background: rgba(7, 128, 0, 0.1);
+	margin:auto;
+	margin-left: 30rem;
+	padding: 3rem;
+	max-width: 50rem;
+	border-radius: 25px;
+	box-shadow: 2px 4px 5px grey;
+    
+
+
+}
+section{
+
+	min-height: 100vh;
+	display: flex;
+	
+
+
+}
+
+section h2{
+	font-family: 'Comic Neue', cursive;
+	font-size: 4rem;
+	text-transform: uppercase;
+	color: #007bff;
+	text-align: center; 
+
+}
+
+section p{
+	font-family: 'Comic Neue', cursive;
+	margin: 1rem;
+	font-size: 1.5rem;
+}
+
+section button{
+	padding:8px  15px ;
+	min-width:140px;
+	border:0;
+	outline:0;
+	color:#fff;
+	cursor:pointer;
+	background:#00fbff;
+}
+
+
